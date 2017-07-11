@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C0142561F143CE300E14EDA /* AddItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0142551F143CE300E14EDA /* AddItemTableViewController.swift */; };
+		8C01425A1F1441A800E14EDA /* AddItemTableViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0142591F1441A800E14EDA /* AddItemTableViewControllerDelegate.swift */; };
 		8C69BC541F1431C000FED63F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C69BC531F1431C000FED63F /* AppDelegate.swift */; };
-		8C69BC561F1431C000FED63F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C69BC551F1431C000FED63F /* ViewController.swift */; };
+		8C69BC561F1431C000FED63F /* BucketListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C69BC551F1431C000FED63F /* BucketListViewController.swift */; };
 		8C69BC591F1431C000FED63F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C69BC571F1431C000FED63F /* Main.storyboard */; };
 		8C69BC5B1F1431C000FED63F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C69BC5A1F1431C000FED63F /* Assets.xcassets */; };
 		8C69BC5E1F1431C000FED63F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C69BC5C1F1431C000FED63F /* LaunchScreen.storyboard */; };
@@ -34,9 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C0142551F143CE300E14EDA /* AddItemTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemTableViewController.swift; sourceTree = SOURCE_ROOT; };
+		8C0142591F1441A800E14EDA /* AddItemTableViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddItemTableViewControllerDelegate.swift; path = ../AddItemTableViewControllerDelegate.swift; sourceTree = "<group>"; };
 		8C69BC501F1431C000FED63F /* BucketList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BucketList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C69BC531F1431C000FED63F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8C69BC551F1431C000FED63F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C69BC551F1431C000FED63F /* BucketListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListViewController.swift; sourceTree = "<group>"; };
 		8C69BC581F1431C000FED63F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C69BC5A1F1431C000FED63F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C69BC5D1F1431C000FED63F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -97,8 +101,10 @@
 		8C69BC521F1431C000FED63F /* BucketList */ = {
 			isa = PBXGroup;
 			children = (
+				8C0142591F1441A800E14EDA /* AddItemTableViewControllerDelegate.swift */,
+				8C0142551F143CE300E14EDA /* AddItemTableViewController.swift */,
 				8C69BC531F1431C000FED63F /* AppDelegate.swift */,
-				8C69BC551F1431C000FED63F /* ViewController.swift */,
+				8C69BC551F1431C000FED63F /* BucketListViewController.swift */,
 				8C69BC571F1431C000FED63F /* Main.storyboard */,
 				8C69BC5A1F1431C000FED63F /* Assets.xcassets */,
 				8C69BC5C1F1431C000FED63F /* LaunchScreen.storyboard */,
@@ -262,8 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C69BC561F1431C000FED63F /* ViewController.swift in Sources */,
+				8C69BC561F1431C000FED63F /* BucketListViewController.swift in Sources */,
 				8C69BC541F1431C000FED63F /* AppDelegate.swift in Sources */,
+				8C01425A1F1441A800E14EDA /* AddItemTableViewControllerDelegate.swift in Sources */,
+				8C0142561F143CE300E14EDA /* AddItemTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,7 +428,7 @@
 				DEVELOPMENT_TEAM = G6RP4M9WGT;
 				INFOPLIST_FILE = BucketList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.BucketList;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaankabalak.BucketList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -433,7 +441,7 @@
 				DEVELOPMENT_TEAM = G6RP4M9WGT;
 				INFOPLIST_FILE = BucketList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.BucketList;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaankabalak.BucketList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -516,6 +524,7 @@
 				8C69BC7A1F1431C000FED63F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8C69BC7B1F1431C000FED63F /* Build configuration list for PBXNativeTarget "BucketListTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +533,7 @@
 				8C69BC7D1F1431C000FED63F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8C69BC7E1F1431C000FED63F /* Build configuration list for PBXNativeTarget "BucketListUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +542,7 @@
 				8C69BC801F1431C000FED63F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
