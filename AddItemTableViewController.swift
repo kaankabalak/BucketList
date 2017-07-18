@@ -16,12 +16,10 @@ class AddItemTableViewController: UITableViewController {
     var indexPath: NSIndexPath?
     
     @IBAction func CancelButtonPressed(_ sender: UIBarButtonItem) {
-        print("casdasdsncel")
         delegate?.cancelButtonPressed(by: self)
     }
     
     @IBAction func saveButtonPressed(_ sender: UIBarButtonItem) {
-        print("sadadasdsved")
         let text = itemTextField.text!
         delegate?.itemSaved(by: self, with: text, at: indexPath)
     }
